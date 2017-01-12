@@ -119,6 +119,10 @@ public class PrettyPrintCert {
                 continue;
             }
 
+            /* adding some more silliness to see if I can commit
+               without using gerrit or pull requests.
+               That is - like a plain git server */
+
             if (outputfile == null) {
                 outputfile = argv[i];
                 continue;
