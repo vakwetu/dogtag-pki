@@ -155,6 +155,8 @@ public class CMCEnroll {
                 throw new IOException("Internal Error - " + e.toString());
             }
 
+            /* And this is a second reandom comment */
+
             BigInteger serialno = signerCert.getSerialNumber();
             byte[] certB = signerCert.getEncoded();
             X509CertImpl impl = new X509CertImpl(certB);

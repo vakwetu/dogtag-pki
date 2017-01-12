@@ -96,6 +96,8 @@ public class BtoA {
             inputBlob.read(data);
             String out = Utils.base64encode(data);
             outputBlob.write(out.getBytes());
+
+            // this is a random comment to test out gerrit reviews
         } catch (IOException e) {
             System.out.println("BtoA():  Unexpected BASE64 " +
                     "encoded error encountered:\n" +
